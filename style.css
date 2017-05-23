@@ -1,0 +1,63 @@
+.theBody {
+ 	background-image: url("psychicball.jpg"); 
+ 	background-repeat: repeat;
+	}
+
+
+h2 {
+	color: pink;
+	margin-left: 40.3333%;
+}
+
+p {
+	color: white;
+	margin-left: 40.3333%;
+}
+
+
+
+
+
+ @import "compass/css3";
+
+body {background:black;}
+
+h1 {
+  color:white;
+  font-size:72px;
+  padding:25px 0 0 100px;
+  font-family:helvetica;
+  font-weight:100;
+}
+
+.star {
+		position: absolute;
+      background: url(https://dl.dropbox.com/u/1488103/julie-logo-sparkle.png) no-repeat;
+      background-size: contain;
+      overflow: hidden;
+			&.star-1 {
+				width: 50px;
+				height: 34px;
+				top:110px;
+				left:97px;	
+			}
+			&.star-2 {
+				width: 83px;
+				height: 77px;
+				top:18px;
+				left:224px;
+					
+			}
+			&.star-3 {
+				width: 74px;
+				height: 70px;
+				top:115px;
+				left:172px;
+			}
+			&.star-4 {
+				width: 68px;
+				height: 70px;
+				top:46px;
+				left:162px;
+			}
+}
